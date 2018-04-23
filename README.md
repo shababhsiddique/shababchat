@@ -19,6 +19,6 @@ For Database:
 
         php artisan migrate:fresh 
 
-   if you already have database and want to overwrite)
+   if you already have database and want to overwrite kd)
 
 
