@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/message/{code}/{user}/{poster}', 'HomeController@viewMessage');   
+Route::get('/message/{code}/{user}/{poster}', 'HomeController@viewMessage');  
+Route::get('/message/{code}/{user}/{poster}', 'HomeController@Test');   
+
